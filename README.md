@@ -2,12 +2,11 @@
 
 To run the application locally, follow these steps:
 
-Before all of this, do 'pip install -r requirements.txt'
-Then... 
+
 1. Clone the repository to your local machine:
 
-$ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-$ cd REPO_NAME
+$ git clone https://github.com/nineshots109/CS120_Project.git
+$ cd CS120_Project
 
 
 2. Initialize a virtual environment:
@@ -45,7 +44,7 @@ $ pip install -r requirements.txt
 $ python manage.py recreate_db
 
 6. Run the app:
-$ source env/bin/activate
+$ source venv/bin/activate
 $ honcho start -e config.env -f Local
 
 

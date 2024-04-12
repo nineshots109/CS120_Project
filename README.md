@@ -2,6 +2,8 @@
 
 To run the application locally, follow these steps:
 
+Before all of this, do 'pip install -r requirements.txt'
+Then... 
 1. Clone the repository to your local machine:
 
 $ git clone https://github.com/YOUR_USERNAME/REPO_NAME.git

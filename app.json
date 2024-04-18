@@ -8,7 +8,7 @@
     "FLASK_CONFIG": {
       "value": "production"
     },
-    "SECRET_KEY": {
+    "SECRET_KEY": {  
       "generator": "secret"
     },
     "MAIL_USERNAME": {

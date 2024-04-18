@@ -9,6 +9,18 @@ main = Blueprint('main', __name__)
 def index():
     return render_template('main/index.html')
 
+@main.route('/project1')
+def project1():
+    return render_template('main/project1.html')
+
+@main.route('/project2')
+def project2():
+    return render_template('main/project2.html')
+
+@main.route('/project3')
+def project3():
+    return render_template('main/project3.html')
+
 
 @main.route('/about')
 def about():
